@@ -5,10 +5,10 @@
 # Description: Program that returns the standard deviation for all of the ages in a defined class. 
 
 class Person:
-    def __init__(self, name, age):
+    def __init__(self, __name, __age):
         '''Defines Person Attributes name and age'''
-        self.__name = name
-        self.__age = age
+        self.__name = __name
+        self.__age = __age
 
     def get_age(self):
         '''Returns the age of the person.'''
